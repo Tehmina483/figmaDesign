@@ -1,0 +1,488 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+*{
+    padding: 0;margin: 0;box-sizing: border-box;
+    font-family: "Roboto", sans-serif;
+}
+.container{
+    max-width: 1200px;
+    margin: auto;
+    padding:20px 50px 0px 50px;
+}
+.main_content_wrapper{
+    background-color: #04ABED;
+}
+.main_content_leftside{
+    max-width: 350px;
+}
+.main_content_leftside h1{
+    color: white;
+    width:100%;
+    text-transform: lowercase;
+}
+.main_content_rightside_image{
+    max-width:800px;
+}
+.main_content_rightside_image img{
+    width: 100%;
+}
+.main_content_wrapper_container{
+    display: flex;
+    justify-content: space-between;
+    align-items:center;
+}
+
+/* whats includes section css starts */
+.what_includes_section_container{
+    /* background-image: url(Vector\ 1.png); */
+    background-position: center;
+}
+.what_includes_section_container_content{
+    padding: 100px 0px 100px 0px;
+}
+.what_includes_section_container_content h2{
+    color: #0B0B0B;
+    padding-bottom: 20px;
+    font-weight: 800;
+    font-family: "Poppins", sans-serif;
+}
+.what_includes_section_container_content p{
+    max-width: 560px;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-family: "Poppins", sans-serif;
+    color: #0B0B0B;
+}
+.what_includes_section_container_content span{
+    color:#04ABED;
+    font-weight: 600;
+}
+.what_includes_section_container_content .content_paragraph_2{
+    padding-top: 20px;
+}
+/* whats includes section css ends */
+/* featured product section starts */
+.featured_product_section{
+    background-color: #F7F7EF;
+    padding: 50px 0px 50px 0px;
+}
+.featured_product_section .featured_product_heading h1{
+   text-align: center;
+   padding-bottom: 20px;
+   color: #0B0B0B;
+}
+.featured_product_section_content{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    gap: 20px;
+}
+.featured_product_section_card_1,
+.featured_product_section_card_2,
+.featured_product_section_card_3{
+    max-width: 312px;
+    background-color: white;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px rgba(0, 0, 0, 0.064);
+}
+.card_image_box{
+    height: 250px;
+}
+.featured_product_section_card_1 img,
+.featured_product_section_card_2 img,
+.featured_product_section_card_3 img{
+    width: 100%;
+    height: 100%;
+    border-radius: 5px 5px 0px 0px ;
+}
+.featured_product_section_content h1{
+    color: #04ABED;
+    padding: 15px;
+    font-size: 20px;
+}
+.featured_product_section_content p{
+    font-size: 13px;
+    padding: 0px 15px 20px 15px;
+    text-transform: capitalize;
+    color: #0B0B0B;
+}
+.featured_product_section_content span{
+    font-weight: 800;
+}
+/* featured product section ends */
+/* customer love section starts */
+.customer_love_section{
+    padding: 50px 0px 50px 0px;
+}
+.customer_love_section .customer_heading h1{
+    text-align: center;
+    font-size: 38px;
+    color: #0B0B0B;
+    text-transform: capitalize;
+}
+.customer_love_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 10px;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+.customer_stars i{
+   color:#F7CE1D;
+   letter-spacing: -5px;
+}
+.customer_rating h5{
+   color: #0B0B0B;
+   font-weight: 700;
+}
+.customer_reviews_rating h6{
+    color: #326DC4;
+    font-size: 20px;
+}
+.customer_reviews_rating span{
+    text-decoration: underline;
+}
+/* customer love section ends */
+/* business section starts */
+.business_growth_section{
+    background-color: #AAD9EF;
+    padding:50px 40px 50px 40px;
+}
+.business_growth_heading h1{
+    text-align: center;
+    color: #0B0B0B;
+    text-transform: capitalize;
+    font-size: 30px;
+    font-weight: 800;
+}
+.business_growth_heading p{
+    color: #0B0B0B;
+    font-weight: 500;
+    text-align: center;
+    text-transform: capitalize;
+    padding-top: 15px;
+    padding-bottom: 45px;
+}
+.business_content_images{
+    display: grid;
+    place-items: center;
+    /* grid-template-columns:auto auto auto auto auto auto; */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+    gap: 10px;
+    max-width: 1400px;
+    margin: auto;
+}
+.business_growth_heading span{
+    font-weight: bold;text-transform: capitalize;
+}
+.business_content_images img{
+    width: 100%;
+}
+/* business section ends */
+/* faq section css starts */
+.faq_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.faq_section .faq_section_heading h1{
+  color: #0B0B0B;
+  text-transform:uppercase;
+}
+.faq_section_content{
+    padding-left: 20px;
+}
+.monthly_subscription_cost{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-bottom:2px solid #2A6AC8;
+    gap: 20px;
+    padding-top: 30px;
+}
+.monthly_subscription_cost h5{
+    color: #2A6AC8;
+    font-size: 16px;
+    text-transform: capitalize;
+    padding-bottom: 10px;
+    font-weight: 900;
+}
+.monthly_subscription_cost i{
+    color: #2A6AC8;
+}
+.help_center_section{
+    padding-top: 40px;
+}
+.help_center_section h1{
+    color: #0B0B0B;
+    font-size: 16px;
+    font-weight: 800;
+}
+.help_center_section p{
+    color: #2A6AC8;
+    font-weight: 400;
+    font-size: 15px;
+    text-decoration: underline;
+}
+.help_center_section i{
+    color: #2A6AC8;
+    padding-left: 5px;
+}
+/* faq section css ends */
+/* subscription secton starts */
+.subscription_section_starts{
+    background-color: #AAD9EF;
+    padding-top: 100px;
+    padding-bottom: 110px;
+}
+.subscription_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+
+}
+.subscription_content h1{
+    color: #1B446B;
+    font-size: 30px;
+    text-transform:capitalize;
+    font-weight: 900;
+    text-align: center;
+}
+.subscription_content button{
+    margin-top: 30px;
+    background-color: white;
+    color: #04ABED;
+    padding: 10px 25px 10px 25px;border: none;
+    font-weight: 600;
+}
+/* subscription secton ends */
+
+/* trusted compaines starts */
+.trusted_companies_section{
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.trusted_compaines_heading h1{
+    text-align: center;
+    color: #0B0B0B;
+    text-transform:capitalize;
+    font-size: 30px;
+    font-weight: bold;
+}
+.companies_logos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+    flex-wrap: wrap;
+    padding-top: 30px;
+}
+.companies_logos img{
+    max-width: 100px;
+    aspect-ratio: 3/2;object-fit: contain;
+}
+/* trusted compaines ends */
+/* footer section starts */
+.footer_section{
+    background-color: #E8E8E1;
+    width: 100%;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.footer_section_content{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.footer_section_content p{
+    text-align: center;
+    color: #1B446B;
+    text-transform: capitalize;
+    font-size: 16px;
+    font-weight: 500;
+}
+.footer_section_content span{
+    font-weight: 800;
+}
+.footer_section_content h1{
+    text-transform: lowercase;
+    font-size: 48px;
+    color: #202020;
+    text-align: center;
+    padding-bottom: 10px;
+} 
+.footer_section_content h5{
+    color: #0A142F;
+    font-size: 14px;
+    font-weight: 400;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 10px;
+}
+.footer_section_content button{
+    background-color: white;
+    color: #04ABED;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 5px 15px 5px 15px;
+    border: none;
+    margin-top: 20px;
+    text-transform: capitalize;
+}
+.footer_section_content h4{
+    margin-top: 100px;
+    text-align: center;
+    color: #202020;
+    font-size: 12px;
+    font-weight: 400;
+}
+.hr_line{
+    max-width: 700px;
+    margin: auto;
+    padding-top: 40px;
+    opacity: .2;
+}
+.footer_logo_content_icons{
+    display: flex;
+    justify-content: space-around;
+    align-items:center;
+}
+.footer_menu{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 50px;
+}
+.footer_menu a{
+    text-decoration: none;
+    color: #202020;
+    text-transform: capitalize;
+}
+.footer_icons{
+    display: flex;justify-content: center;
+    align-items: center;
+    gap: 20px;
+}
+.icon_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 2px solid rgb(216, 216, 216);
+    border-radius: 40px;
+    width: 40px;
+    height: 40px;
+}
+.footer_icons i{
+    color: #0A142F;
+}
+/* footer section ends */
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media  (max-width:767px) {
+    .main_content_wrapper_container{
+     flex-direction: column;
+     align-items: start;
+     gap:50px;
+    }
+    .container{
+        padding: 20px 20px 0px 20px;
+    }
+    .featured_product_section_content{
+        flex-direction: column;
+    }
+    .featured_product_section_card_1,
+.featured_product_section_card_2,
+.featured_product_section_card_3{
+    max-width:100%;
+}
+.card_image_box{
+    height:100% ;
+}
+.featured_product_section_content h1{
+    font-size: 28px;
+}
+.featured_product_section_content p{
+    font-size: 20px;
+    line-height: 30px;
+}
+.customer_love_section .customer_heading h1{
+    font-size: 28px;
+}
+.business_growth_section{
+    padding:50px 20px 50px 20px;
+}
+.business_content_images{
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+}
+.business_content_images img{
+    width: 100%;
+}
+.faq_section_content{
+    padding-left: 0px;
+}
+.subscription_section_starts{
+    padding-top: 50px;
+    padding-bottom: 70px;
+}
+.subscription_content h1{
+    font-size: 24px;
+}
+.subscription_content button{
+    margin-top: 20px;
+}
+.trusted_companies_section{
+    padding-top:50px;
+    padding-bottom: 50px;
+}
+.companies_logos{
+    gap: 10px;
+}
+.companies_logos img{
+    max-width: 50px;
+    aspect-ratio: 3/2;object-fit: contain;
+}
+.footer_section_content h1{
+    font-size: 38px;
+}
+.footer_logo_content_icons{
+    flex-direction: column;
+}.footer_menu{
+    gap: 5px;
+    flex-direction: column;
+    padding-top: 20px;
+    padding-bottom:20px;
+}
+.footer_logo_content_icons{
+    padding-top: 20px;
+}
+.footer_icons{
+    gap: 8px;
+    flex-wrap: wrap;
+}
+}
