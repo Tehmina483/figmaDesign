@@ -353,7 +353,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 50px;
+    gap: 30px;
 }
 .footer_menu a{
     text-decoration: none;
@@ -363,7 +363,7 @@
 .footer_icons{
     display: flex;justify-content: center;
     align-items: center;
-    gap: 20px;
+    gap: 10px;
 }
 .icon_container{
     display: flex;
@@ -484,5 +484,12 @@
 .footer_icons{
     gap: 8px;
     flex-wrap: wrap;
+}
+.footer_section{
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+.footer_section_content h4{
+    margin-top: 60px;
 }
 }
